@@ -17,11 +17,8 @@ Author URI: http://jitbit.com/
 function get_widget() {
 	$jitbit_hd_url = rtrim(get_option("jitbit_hd_url"), "/");
     if(!empty($jitbit_hd_url)){
-    $path = "/js/support-widget.js";
-		echo "<script type='text/javascript' src='".$jitbit_hd_url.$path."'></script>
-        <script type='text/javascript'>
-            CreateSupportWidget('left');
-        </script>";
+    $path = "/js/support-widget-light.js";
+		echo "<script type='text/javascript' src='".$jitbit_hd_url.$path."'></script>";
 	}
 }
 
