@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Jitbit_Helpdesk
- * @version 0.1
+ * @version 0.2
  */
 /*
 Plugin Name: Jitbit Help Desk for Wordpress
