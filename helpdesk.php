@@ -8,7 +8,7 @@ Plugin Name: Jitbit Help Desk for Wordpress
 Plugin URI: http://www.jitbit.com/hosted-helpdesk/
 Description: This plugin inserts Jitbit Help Desk widget on every page of your Wordpress blog.
 Author: Jitbit
-Version: 0.1
+Version: 0.2
 Author URI: http://jitbit.com/
 */
 
