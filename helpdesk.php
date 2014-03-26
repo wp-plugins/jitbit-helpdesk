@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Jitbit_Helpdesk
- * @version 0.2
+ * @version 0.2.1
  */
 /*
 Plugin Name: Jitbit Help Desk for Wordpress
 Plugin URI: http://www.jitbit.com/hosted-helpdesk/
 Description: This plugin inserts Jitbit Help Desk widget on every page of your Wordpress blog.
 Author: Jitbit
-Version: 0.2
+Version: 0.2.1
 Author URI: http://jitbit.com/
 */
 
@@ -18,7 +18,7 @@ function get_widget() {
 	$jitbit_hd_url = rtrim(get_option("jitbit_hd_url"), "/");
     if(!empty($jitbit_hd_url)){
     $path = "/js/support-widget-light.js";
-		echo "<script type='text/javascript' src='".$jitbit_hd_url.$path."'></script>";
+		echo "<script type='text/javascript' src='".$jitbit_hd_url.$path."'></script><a style='display:none' rel='nofollow' href='http://www.jitbit.com/web-helpdesk/'>ticket system</a>";
 	}
 }
 
