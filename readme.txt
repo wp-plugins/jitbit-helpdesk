@@ -1,4 +1,4 @@
-=== Jitbit Help Desk for Wordpress ===
+=== Jitbit Help Desk Ticketing System for Wordpress ===
 Contributors: maxt3r
 Tags: helpdesk, widget
 Requires at least: 3.0
@@ -11,11 +11,11 @@ This plugin adds Jitbit Help Desk widget to every page of your Wordpress blog.
 
 == Description ==
 
-To use this plugin you need to have a [Jitbit Help Desk](http://www.jitbit.com/hosted-helpdesk/) account. You can register for a free trial here: http://www.jitbit.com/hosted-helpdesk/trial/ It takes 30 seconds and does not require a credit card.
+To use this plugin you need to register a [Jitbit Help Desk](https://www.jitbit.com/web-helpdesk/) account. You can register for a free trial here: https://www.jitbit.com/hosted-helpdesk/trial/ It takes only 10 seconds and does not require a credit card.
 
-After the registration, you will get your own Help Desk URL (https://%your_company_name%.jitbit.com/helpdesk), you will need it to make this plugin work.
+After the registration, you will get your own Help Desk URL ("XXX.jitbit.com"), you will need it to make this plugin work.
 
-Jitbit Help Desk for Wordpress loads an external javascript file from Jitbit's servers. It will execute in your visitors browsers, but don't worry, the only purpose of the plugin is to create a Help Desk widget.
+Jitbit Help Desk for Wordpress loads an external javascript file from Jitbit's servers. It will execute in your visitors browsers, but don't worry, the only purpose of the plugin is to create a Help Desk widget, that displayes a feedback form popup, where user can submit tickets to the support system.
 
 Also please note that all communication between your Wordpress site and Jitbit servers is secured with SSL.
 
